@@ -96,13 +96,19 @@ export const GAME_CONFIG = {
   DIFFICULTY_INCREASE_INTERVAL: 10000, // How often difficulty increases (milliseconds)
   SCORE_INCREMENT: 1,              // Points gained per frame while running
   
-  // Canvas and object dimensions (in pixels)
-  CANVAS_WIDTH: 800,               // Game canvas width
-  CANVAS_HEIGHT: 400,              // Game canvas height
+  // Canvas and object dimensions (in pixels) - Made responsive
+  CANVAS_WIDTH: 800,               // Desktop canvas width
+  CANVAS_HEIGHT: 400,              // Desktop canvas height
+  MOBILE_CANVAS_WIDTH: 350,        // Mobile canvas width
+  MOBILE_CANVAS_HEIGHT: 300,       // Mobile canvas height
   PLAYER_WIDTH: 40,                // Player character width
   PLAYER_HEIGHT: 60,               // Player character height
   OBSTACLE_WIDTH: 30,              // Obstacle width
-  OBSTACLE_HEIGHT: 60              // Obstacle height
+  OBSTACLE_HEIGHT: 60,             // Obstacle height
+  
+  // Player positioning
+  PLAYER_X_DESKTOP: 100,           // Player X position on desktop
+  PLAYER_X_MOBILE: 60,             // Player X position on mobile (more centered)
 };
 
 /**
