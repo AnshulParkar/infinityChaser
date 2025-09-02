@@ -68,7 +68,7 @@ const Leaderboard = ({ currentScore, isVisible, onClose }) => {
           {/* Header */}
           <div className="text-center mb-6">
             <motion.h2
-              className="text-3xl font-bold text-white mb-2"
+              className="text-3xl font-bold text-black mb-2"
               initial={{ y: -20, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.2 }}
@@ -102,7 +102,7 @@ const Leaderboard = ({ currentScore, isVisible, onClose }) => {
                 transition={{ delay: index * 0.1 }}
                 whileHover={{ scale: 1.02 }}
               >
-                <div className="flex items-center gap-3">
+                <div className="flex items-center gap-3 text-black">
                   <div className="text-2xl font-bold min-w-[3rem]">
                     {getRankEmoji(index + 1)}
                   </div>
@@ -119,12 +119,12 @@ const Leaderboard = ({ currentScore, isVisible, onClose }) => {
                         </motion.span>
                       )}
                     </div>
-                    <div className={`text-sm ${entry.isCurrent ? 'text-yellow-200' : 'text-gray-300'}`}>
+                    <div className={`text-sm ${entry.isCurrent ? 'text-yellow-200' : 'text-black-300'}`}>
                       {formatDate(entry.date)}
                     </div>
                   </div>
                 </div>
-                <div className={`text-xl font-mono font-bold ${entry.isCurrent ? 'text-yellow-100' : 'text-white'}`}>
+                <div className={`text-xl font-mono font-bold ${entry.isCurrent ? 'text-yellow-100' : 'text-black-100'}`}>
                   {entry.score.toLocaleString()}
                 </div>
               </motion.div>
