@@ -2,8 +2,8 @@
 
 A lightweight endless runner game built with React, Vite, and Tailwind CSS.
 
-![Game Screenshot1](../infinityChaser/preview1.png)
-![Game Screenshot2](../infinityChaser/preview2.png)
+![Game Screenshot1](preview1.png)
+![Game Screenshot2](preview2.png)
 
 ## 📦 Setup
 1. Clone the repository:
