@@ -206,7 +206,7 @@ We welcome contributions! Please follow these steps:
 
 ⭐ Star this repo if you enjoyed the game!
 
-[Play Game](https://infinitychaser.vercel.app) • [Report Bug](https://github.com/AnshulParkar/infinityChaser/issues) • [Request Feature](https://github.com/AnshulParkar/infinityChaser/issues)
+[Play Game](https://infinitychaser.netlify.app) • [Report Bug](https://github.com/AnshulParkar/infinityChaser/issues) • [Request Feature](https://github.com/AnshulParkar/infinityChaser/issues)
 
 </div>
 
