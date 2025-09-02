@@ -104,7 +104,7 @@ const Controls = ({ isVisible, onClose }) => {
                     <div className="flex items-center gap-3">
                       <span className="text-2xl">{control.icon}</span>
                       <div>
-                        <div className="text-white font-bold">{control.action}</div>
+                        <div className="text-black font-bold">{control.action}</div>
                         <div className="text-blue-200 text-sm">{control.description}</div>
                       </div>
                     </div>
@@ -149,7 +149,7 @@ const Controls = ({ isVisible, onClose }) => {
                     <div className="flex items-center gap-3">
                       <span className="text-2xl">{control.icon}</span>
                       <div>
-                        <div className="text-white font-bold">{control.action}</div>
+                        <div className="text-black font-bold">{control.action}</div>
                         <div className="text-blue-200 text-sm">{control.description}</div>
                       </div>
                     </div>
