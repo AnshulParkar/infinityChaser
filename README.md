@@ -1,11 +1,46 @@
-# 🏃‍♂️ InfinityChaser
+# InfinityChaser
 
-An exciting endless runner game built with React, Vite, and Tailwind CSS. Jump and duck through obstacles as the game gets progressively more challenging!
+A lightweight endless runner game built with React, Vite, and Tailwind CSS.
 
-![InfinityChaser Game](https://img.shields.io/badge/Game-InfinityChaser-blue?style=for-the-badge)
-![React](https://img.shields.io/badge/React-19.1.1-61DAFB?style=for-the-badge&logo=react)
-![Vite](https://img.shields.io/badge/Vite-7.1.2-646CFF?style=for-the-badge&logo=vite)
-![Tailwind](https://img.shields.io/badge/Tailwind-4.1.12-38B2AC?style=for-the-badge&logo=tailwind-css)
+![Game Screenshot1](../infinityChaser/preview1.png)
+![Game Screenshot2](../infinityChaser/preview2.png)
+
+## 📦 Setup
+1. Clone the repository:
+  ```bash
+  git clone https://github.com/AnshulParkar/infinityChaser.git
+  cd infinityChaser
+  ```
+2. Install dependencies:
+  ```bash
+  npm install
+  ```
+3. Start development server:
+  ```bash
+  npm run dev
+  ```
+4. Build for production:
+  ```bash
+  npm run build
+  ```
+
+
+## 🎮 Controls
+
+### 🖥️ Desktop
+| Action | Keys |
+|--------|------|
+| Jump | `SPACE`, `↑`, `W` |
+| Duck | `↓`, `S` |
+| Pause/Resume | `P`, `ESC` |
+| Restart | `R` |
+| Leaderboard | `L` |
+| Help | `H` |
+
+### 📱 Mobile
+- **Jump**: Tap upper half of the screen
+- **Duck**: Tap and hold lower half of the screen
+
 
 ## 🚀 Features
 
@@ -34,50 +69,6 @@ An exciting endless runner game built with React, Vite, and Tailwind CSS. Jump a
 - **Visual Feedback**: Button hover effects and animations
 - **Accessibility**: Keyboard navigation and screen reader support
 
-## 🎮 Controls
-
-### 🖥️ Desktop
-| Action | Keys |
-|--------|------|
-| Jump | `SPACE`, `↑`, `W` |
-| Duck | `↓`, `S` |
-| Pause/Resume | `P`, `ESC` |
-| Restart | `R` |
-| Leaderboard | `L` |
-| Help | `H` |
-
-### 📱 Mobile
-- **Jump**: Tap upper half of the screen
-- **Duck**: Tap and hold lower half of the screen
-
-## 🛠️ Installation & Setup
-
-### Prerequisites
-- Node.js 18+ and npm
-
-### Quick Start
-```bash
-# Clone the repository
-git clone https://github.com/AnshulParkar/infinityChaser.git
-cd infinityChaser
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-```
-
-### Available Scripts
-```bash
-npm run dev      # Start development server
-npm run build    # Build for production
-npm run preview  # Preview production build
-npm run lint     # Run ESLint
-```
 
 ## 🏗️ Tech Stack
 
@@ -94,6 +85,12 @@ npm run lint     # Run ESLint
 - **ESLint**: Code linting and formatting
 - **PostCSS**: CSS processing
 - **Vite Plugin React**: React support for Vite
+
+## 🐞 Known Issues
+- Audio requires user interaction to start in some browsers
+- Fixed canvas dimensions may not suit very small screens
+- Limited obstacle variety; no background music
+- Leaderboard uses mock data; no backend integration yet
 
 ## 📂 Project Structure
 
@@ -172,19 +169,6 @@ DIFFICULTY_INCREASE_INTERVAL: 10000, // Speed increase interval
 }
 ```
 
-## 🐛 Known Issues
-
-### Current Limitations
-- Sound requires user interaction to play (browser policy)
-- Canvas size fixed for optimal gameplay
-- Limited obstacle variety (planned for future updates)
-
-### Browser Compatibility
-- ✅ Chrome 90+
-- ✅ Firefox 88+  
-- ✅ Safari 14+
-- ✅ Edge 90+
-
 ## 🚧 Future Enhancements
 
 ### Planned Features
@@ -212,32 +196,7 @@ We welcome contributions! Please follow these steps:
 4. Push to branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-### Development Guidelines
-- Follow React best practices
-- Use Tailwind CSS for styling
-- Maintain consistent code formatting
-- Add comments for complex logic
-- Test on multiple devices
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## � Acknowledgments
-
-- **React Team**: For the amazing React framework
-- **Vite Team**: For the lightning-fast build tool
-- **Tailwind CSS**: For the utility-first CSS framework
-- **Framer Motion**: For smooth animations
-- **Open Source Community**: For inspiration and resources
-
-## � Support
-
-If you encounter any issues or have questions:
-
-1. Check the [Issues](https://github.com/AnshulParkar/infinityChaser/issues) page
-2. Create a new issue with detailed description
-3. Join our community discussions
 
 ---
 
@@ -250,28 +209,4 @@ If you encounter any issues or have questions:
 [Play Game](https://infinitychaser.vercel.app) • [Report Bug](https://github.com/AnshulParkar/infinityChaser/issues) • [Request Feature](https://github.com/AnshulParkar/infinityChaser/issues)
 
 </div>
-- 📊 Leaderboard (mock JSON for now)
-- ✨ Smooth animations & subtle effects
 
-## 🛠️ Tech Stack
-- React.js (Vite or CRA)
-- Tailwind CSS
-- Framer Motion or GSAP
-- LocalStorage API
-
-## 🎮 Controls
-- `Space` or `Tap` - Jump
-- `Down Arrow` or `Swipe Down` - Duck
-- `P` - Pause/Resume
-
-## 🏗️ Setup
-```bash
-# Clone the repo
-git clone https://github.com/yourusername/infinitychaser.git
-cd infinitychaser
-
-# Install dependencies
-npm install
-
-# Run the app
-npm run dev

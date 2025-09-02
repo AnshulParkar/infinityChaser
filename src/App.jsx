@@ -267,7 +267,7 @@ function App() {
           animate={{ opacity: 1 }}
           transition={{ delay: 1 }}
         >
-          <p>Best Score: {bestScore.toLocaleString()} | Made with ❤️ using React & Vite</p>
+          <p>Best Score: {bestScore.toLocaleString()} | Made by Anshul Parkar</p>
           <div className="mt-2 flex justify-center gap-4 text-xs">
             <span>Keyboard: P (Pause) • R (Restart) • L (Leaderboard) • H (Help)</span>
           </div>
