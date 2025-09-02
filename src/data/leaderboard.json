@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "SpeedRunner",
+    "score": 2500,
+    "date": "2025-09-01"
+  },
+  {
+    "id": 2,
+    "name": "JumpMaster",
+    "score": 2100,
+    "date": "2025-08-30"
+  },
+  {
+    "id": 3,
+    "name": "DuckDodger",
+    "score": 1950,
+    "date": "2025-08-29"
+  },
+  {
+    "id": 4,
+    "name": "InfinitySeeker",
+    "score": 1800,
+    "date": "2025-08-28"
+  },
+  {
+    "id": 5,
+    "name": "Runner42",
+    "score": 1650,
+    "date": "2025-08-27"
+  }
+]
