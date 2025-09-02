@@ -2,6 +2,8 @@
 
 A lightweight endless runner game built with React, Vite, and Tailwind CSS.
 
+[WATCH DEMO VIDEO](https://www.youtube.com/watch?v=QMulMVqO9bI)
+
 ![Game Screenshot1](preview1.png)
 ![Game Screenshot2](preview2.png)
 
